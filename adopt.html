@@ -15,65 +15,71 @@
     <div class="max-length">
       <h1>Guinea Pig Adotion Form</h1>
       <p>So you are ready to adopt on of our little Piggies.Please fill out our adoption form.
-
-        <form class="push-0" action="index.html" method="post">
-          <fieldset>
-            <div class="">
-              <h2>Personal Details</h2>
+        <div class="grid">
+          <form class="push-0" action="index.html" method="post">
+            <fieldset>
+              <div class="grid island">
+                <h2>Personal Details</h2>
+                <div class="push unit s-1-4 m-1-2 l-1-2">
+                  <label for="name">Name</label>
+                  <input id="name"></input required>
+                </div>
+                <div class="push unit s-1-4 m-1-2 l-1-2">
+                  <label for="age">Age</label>
+                  <input id="age"></input required>
+                </div>
+                <div class="push unit s-1-4 m-1-2 l-1-2">
+                  <label for="email">Email</label>
+                  <input id="email"></input required>
+                </div>
+                <div class="push unit s-1-4 m-1-2 l-1-2">
+                  <label for="province">Province</label>
+                  <select id="province" name="province" required>
+                    <option>Ontario</option>
+                    <option>Manatoba</option>
+                    <option>Quebec</option>
+                    <option>Alberta</option>
+                    <option>Saskatchewan</option>
+                    <option>New Brunswick</option>
+                    <option>British Columbia</option>
+                    <option>Nova Scotia</option>
+                    <option>Newfoundland and Labrador</option>
+                    <option>Prince Edwards Iland</option>
+                  </select>
+                </div>
+              </div>
+              <div class="grid island">
+                <div class="push unit">
+                  <h5>Address</h5>
+                  <label for="city">City</label>
+                  <input id="city"></input required>
+                </div>
+                <div class="unit push">
+                <label for="street">Street</label>
+                <input id="street"></input required>
+              </div>
+              <div class="unit push">
+              <label for="postal">Postal Code</label>
+              <input id="postal"></input required>
             </div>
-            <div class="push">
-              <label for="name">Name</label>
-              <input id="name"></input required>
-            </div>
-            <div class="push">
-              <label for="age">Age</label>
-              <input id="age"></input required>
-            </div>
-            <div class="push">
-              <label for="email">Email</label>
-              <input id="email"></input required>
-            </div>
-            <div class="push">
-              <label for="province">Province</label>
-              <select id="province" name="province" required>
-                <option>Ontario</option>
-                <option>Manatoba</option>
-                <option>Quebec</option>
-                <option>Alberta</option>
-                <option>Saskatchewan</option>
-                <option>New Brunswick</option>
-                <option>British Columbia</option>
-                <option>Nova Scotia</option>
-                <option>Newfoundland and Labrador</option>
-                <option>Prince Edwards Iland</option>
-              </select>
-            </div>
-            <h5>Address</h5>
-            <label for="city">City</label>
-            <input id="city"></input required>
+          </fieldset>
+        </div>
+        <div class="grid island">
+          <div class="push unit">
+            <h2 class="island unit">Which Guinea Pig would you like to adopt?</h2>
+          </div>
+          <div class="push unit">
+            <label for="details">Which Guinea Pig would you like to adopt?</label>
+            <textarea  id="details" name="details" required></textarea>
           </div>
 
-          <label for="street">Street</label>
-          <input id="street"></input required>
+          <div class="push unit">
+            <button type="submit" name="button">Adopt this Piggie!</button>
+          </div>
         </div>
-        <label for="postal">Postal Code</label>
-        <input id="postal"></input required>
       </div>
-    </fieldset>
-    <fieldset>
-      <div class="">
-        <h2>Which Guinea Pig would you like to adopt?</h2>
-      </div>
-      <div class="push">
-        <label for="details">Which Guinea Pig would you like to adopt?</label>
-        <textarea  id="details" name="details" required></textarea>
-      </div>
-    </fieldset>
-    <div class="">
-      <button type="submit" name="button">Adopt this Piggie!</button>
     </div>
-  </div>
-</form>
+  </form>
 </section>
 
 </body>
