@@ -27,7 +27,7 @@ html {
   border-color: #fff;
   overflow: hidden;
   min-height: 24em;
-  background-image: url("../images/guinea-pig-1312864_1920.jpg");
+  background-image: url("../images/banner-photo.jpg");
   background-size: cover;
   background-position: bottom center;
 }
@@ -81,4 +81,13 @@ a {
 
 .section-grey {
   background-color: #f5f5f5;
+}
+
+.lilbanner {
+  border-color: #fff;
+  overflow: hidden;
+  min-height: 24em;
+  background-image: url("../images/guinea-pig-1573422_1920.jpg");
+  background-size: cover;
+  background-position: bottom center;
 }
