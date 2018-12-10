@@ -14,78 +14,99 @@
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#footer">Jump to footer</a></li>
   </ul>
 
-  <section class="contact">
-    <div class="max-length">
-      <h1>Guinea Pig Adoption Form</h1>
-      <p>So you are ready to adopt on of our little Piggies.Please fill out our adoption form.
-        <div class="grid section-grey">
-          <form class="push-0" action="index.html" method="post">
-            <fieldset>
-              <div class="grid island">
-                <h5 class="unit s-1 m-1 l-1">Personal Details</h5>
-                <div class="push unit s-1-4 m-1-2 l-1-2">
-                  <label for="name">Name</label>
-                  <input id="name"></input required>
+  <div>
+    <nav class="text-center" role="navigation" id="nav" tabindex="0">
+      <ul class="push-0 list-group">
+        <li class="push-0"><a class="btn" href"home">Home</a></li>
+        <li class="push-0"><a class="btn"href"Adopt">Adopt a Piggie</a></li>
+        <li class="push-0"><a class="btn" href"rescue">Rescue</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main role="main" id="main" tabindex="0">
+    <section class="contact">
+      <div class="max-length">
+        <h1>Guinea Pig Adoption Form</h1>
+        <p>So you are ready to adopt on of our little Piggies.Please fill out our adoption form.
+          <div class="grid section-grey">
+            <form class="push-0" action="index.html" method="post">
+              <fieldset>
+                <div class="grid island">
+                  <h5 class="unit s-1 m-1 l-1">Personal Details</h5>
+                  <div class="push unit s-1-4 m-1-2 l-1-2">
+                    <label for="name">Name</label>
+                    <input id="name"></input required>
+                  </div>
+                  <div class="push unit s-1-4 m-1-2 l-1-2">
+                    <label for="age">Age</label>
+                    <input id="age"></input required>
+                  </div>
+                  <div class="push unit s-1-4 m-1-2 l-1-2">
+                    <label for="email">Email</label>
+                    <input id="email"></input required>
+                  </div>
+                  <div class="push unit s-1-4 m-1-2 l-1-2">
+                    <label for="province">Province</label>
+                    <select id="province" name="province" required>
+                      <option>Ontario</option>
+                      <option>Manatoba</option>
+                      <option>Quebec</option>
+                      <option>Alberta</option>
+                      <option>Saskatchewan</option>
+                      <option>New Brunswick</option>
+                      <option>British Columbia</option>
+                      <option>Nova Scotia</option>
+                      <option>Newfoundland and Labrador</option>
+                      <option>Prince Edwards Iland</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="push unit s-1-4 m-1-2 l-1-2">
-                  <label for="age">Age</label>
-                  <input id="age"></input required>
-                </div>
-                <div class="push unit s-1-4 m-1-2 l-1-2">
-                  <label for="email">Email</label>
-                  <input id="email"></input required>
-                </div>
-                <div class="push unit s-1-4 m-1-2 l-1-2">
-                  <label for="province">Province</label>
-                  <select id="province" name="province" required>
-                    <option>Ontario</option>
-                    <option>Manatoba</option>
-                    <option>Quebec</option>
-                    <option>Alberta</option>
-                    <option>Saskatchewan</option>
-                    <option>New Brunswick</option>
-                    <option>British Columbia</option>
-                    <option>Nova Scotia</option>
-                    <option>Newfoundland and Labrador</option>
-                    <option>Prince Edwards Iland</option>
-                  </select>
-                </div>
-              </div>
-              <div class="grid island">
-                <h5 class="unit s-1 m-1 l-1">Address</h5>
-                <div class="push unit s-1-3 m-1-3 l-1-3 ">
-                  <label for="city">City</label>
-                  <input id="city"></input required>
-                </div>
-                <div class="unit s-1-3 m-1-3 l-1-3 push">
-                <label for="street">Street</label>
-                <input id="street"></input required>
-              </div>
-              <div class="unit unit s-1-3 m-1-3 l-1-3 push">
-              <label for="postal">Postal Code</label>
-              <input id="postal"></input required>
+                <div class="grid island">
+                  <h5 class="unit s-1 m-1 l-1">Address</h5>
+                  <div class="push unit s-1-3 m-1-3 l-1-3 ">
+                    <label for="city">City</label>
+                    <input id="city"></input required>
+                  </div>
+                  <div class="unit s-1-3 m-1-3 l-1-3 push">
+                    <label for="street">Street</label>
+                    <input id="street"></input required>
+                  </div>
+                  <div class="unit unit s-1-3 m-1-3 l-1-3 push">
+                    <label for="postal">Postal Code</label>
+                    <input id="postal"></input required>
+                  </div>
+                </main>
+              </fieldset>
             </div>
-          </fieldset>
-        </div>
-        <div class="grid island">
-          <div class="unit">
-            <h2 class="island unit">Which Guinea Pig would you like to adopt?</h2>
-          </div>
-          <div class="unit island">
-            <label for="details">Which Guinea Pig would you like to adopt?</label>
-            <textarea class=""  id="details" name="details" required></textarea>
-          </div>
+            <div class="grid island">
+              <div class="unit">
+                <h2 class="island unit">Which Guinea Pig would you like to adopt?</h2>
+              </div>
+              <div class="unit island">
+                <label for="details">Which Guinea Pig would you like to adopt?</label>
+                <textarea class=""  id="details" name="details" required></textarea>
+              </div>
 
-          <div class="push unit">
-            <button type="submit" name="button">Adopt this Piggie!</button>
+              <div class="push unit">
+                <button type="submit" name="button">Adopt this Piggie!</button>
+              </div>
+            </div>
           </div>
         </div>
+      </form>
+    </section>
+
+    <footer role="contentinfo" id="footer" tabindex="0">
+      <div class="section-grey">
+        <p> Follow us on Facebook.com</p>
+        <p>Tweet us at Twitter.com</p>
+        <p>©LitterCritters</p>
       </div>
-    </div>
-  </form>
-</section>
+    </footer>
 
-</body>
-</html>
+  </body>
+  </html>
