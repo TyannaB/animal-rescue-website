@@ -35,6 +35,7 @@ html {
 .banner-content {
   color: #fff;
 }
+
 li {
   text-decoration: none;
   display: inline-block;
@@ -88,6 +89,15 @@ a {
   overflow: hidden;
   min-height: 24em;
   background-image: url("../images/guinea-pig-1573422_1920.jpg");
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.second-banner {
+  border-color: #fff;
+  overflow: hidden;
+  min-height: 24em;
+  background-image: url("../images/rescue-page-banner.jpg");
   background-size: cover;
   background-position: bottom center;
 }
